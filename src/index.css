@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  color: white;
+  background-color: #222222;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.items > li {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+.items > .btn {
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+img {
+  height: 700px;
+  width: 100%;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%,-50%);
+}
+
+.text h1 {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.text p {
+  font-size: 38px;
+  margin-top: -30px;
+}
+
+.btn-header {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-header > span {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.main-heading {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card {
+  height: 380px;
+  width: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card > img {
+  max-width: fit-content;
+  max-height: 300px;
+}
+
+.row-1 {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.col-1 {
+  margin-right: 20px;
+}
+
+.row-2 {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.item-1 {
+  margin-right: 50px;
+}
+
+.item-2 {
+  margin-right: 50px;
+}
+
+.item-1 > img {
+  width: 500px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.line-1 {
+  padding-top: 45px;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.line-2 {
+  padding-left: 45px;
+  font-size: 19px;
+}
+
+.footer input {
+  width: 200px;
+  border-radius: 5px;
+  height: 25px;
+  margin-right: 25px;
+}
+
+.subscribe-btn{
+  border: 1px solid white;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.row ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.row h1 {
+  font-size: 22px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.row ul li {
+  padding: 5px;
+}
+
+.coll-1 {
+  padding-right: 40px;
+}
+
+.coll-2 {
+  padding-right: 10px;
+}
+
+.coll-3 {
+  padding-left: 45px;
+}
+
+.coll-4{
+  padding-left: 45px;
+}
